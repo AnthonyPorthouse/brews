@@ -4,9 +4,10 @@ class MpsYoutube < Formula
   url "https://github.com/mps-youtube/mps-youtube/archive/v0.2.6.tar.gz"
   sha256 "df3cc7ad9a49a0da390c38f40c905daa992d48de5fb421865ec19cc1fbec453f"
 
-  depends_on "python3"
+  depends_on :python3
   depends_on "youtube-dl"
   depends_on "mpv"
+  depends_on "mplayer"
 
   resource "pafy" do
     url "https://github.com/mps-youtube/pafy/archive/develop.tar.gz"
