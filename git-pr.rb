@@ -1,8 +1,8 @@
 class GitPr < Formula
   desc "Create GitHub PRs from your current branch"
   homepage "https://github.com/AnthonyPorthouse/git-pr"
-  url "https://github.com/AnthonyPorthouse/git-pr/archive/v0.0.3.tar.gz"
-  sha256 "9f1b3cde1b6a88ecfb1e3e2e86d48486aef8fc4f1947fca730f233249fcadfba"
+  url "https://github.com/AnthonyPorthouse/git-pr/archive/v0.0.4.tar.gz"
+  sha256 "ee7c7e7aa17112234ce1cbbbd9521c9228087003593fc76f388d184fb58d6b4c"
 
   def install
     bin.install "git-pr"
