@@ -8,7 +8,7 @@ class Ocrdownloader < Formula
   depends_on "gnu-sed"
 
   def install
-    inreplace "ocrdownloader" /sed -r/, "gsed -r"
+    inreplace "ocrdownloader", /sed -r/, "gsed -r"
     bin.install "ocrdownloader"
   end
 
