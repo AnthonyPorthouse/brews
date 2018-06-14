@@ -1,6 +1,6 @@
 class MpsYoutube < Formula
   desc "Terminal-based YouTube player and downloader."
-  homepage "https://github.com/np1/mps-youtube"
+  homepage "https://github.com/mps-youtube/mps-youtube"
   url "https://github.com/mps-youtube/mps-youtube/archive/v0.2.8.tar.gz"
   sha256 "d5f2c4bc1f57f0566242c4a0a721a5ceaa6d6d407f9d6dd29009a714a0abec74"
 
