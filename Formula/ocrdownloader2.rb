@@ -7,8 +7,10 @@ class Ocrdownloader2 < Formula
   sha256 "8ed229bdd00872c72eda15fe629a21e9f75b955eee092ad3abf26ff386f9925b"
   license "MIT"
   head "https://github.com/AnthonyPorthouse/ocrdownloader2.git"
+  revision 1
 
   depends_on "python"
+  depends_on "aria2"
 
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/6b/c3/d31704ae558dcca862e4ee8e8388f357af6c9d9acb0cad4ba0fbbd350d9a/beautifulsoup4-4.9.3.tar.gz"
